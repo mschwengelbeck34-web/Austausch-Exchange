@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #0a0a0a;
+  color: white;
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+  background: linear-gradient(#555, #111);
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* SECTION */
+.section {
+  padding: 80px 20px;
+  position: relative;
+}
+
+.section h2 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.small {
+  color: #aaa;
+  font-size: 20px;
+}
+
+/* grauer Strich */
+.section::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background: #555;
+  margin: 30px auto 0;
+}
+
+/* CARD */
+.card {
+  margin: 40px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 500px;
+  background: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* COUNTDOWN */
+.countdown {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+
+.box {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.box span {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.box p {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 80px;
+  padding: 20px;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
